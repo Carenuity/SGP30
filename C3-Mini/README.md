@@ -1,39 +1,71 @@
-# C3-Mini Projects with Environmental Shields (CLOUDFREE!)
-## SGP30
-This repository contains a collection of D1 Mini projects that utilize environmental shields, including temperature and humidity sensors, barometric pressure sensors, and more.
+## **Carenuity-Air-Quality-Meter User Guide**
 
-## Getting Started
-To get started with these projects, you'll need a dualbase board or a triple adapter D1 Mini board,as well as one or more environmental shields. The code for each project is included in this repository, and you can upload it to your D1 Mini board using the Arduino IDE or another compatible programming environment.
+## Table of Contents
+- [Introduction](#introduction)
+- [Components Required](#components-required)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Real-Life Application Scenarios](#real-life-application-scenarios)
+- [Importance of DIY IoT Applications](#importance-of-diy-iot-applications)
+- [Support](#support)
 
-## Hardware Requirements
-- Dual base adapter / A Trippler
-- ESP8266 D1-mini
-- Environmental shield/sensor
-- 0.66 OLED DISPLAY
+## Introduction
+The **Air-Quality-Meter** is a plug-and-play device designed to monitor indoor air quality. It uses the SGP30 sensor from Sensirion to detect volatile organic compounds (VOCs) and carbon dioxide (CO2) levels, along with humidity data. The device is built around the C3 Mini microcontroller and features an OLED display for real-time readings. This project is brought to you by Carenuity, offering a free IoT application that simplifies air quality monitoring.
 
-## Software Requirements
-- [Arduino IDE](https://www.arduino.cc/en/software) for programming the ESP8266 D1-mini
-- [ESP8266 library for Arduino](https://github.com/esp8266/Arduino)
-- [0.66 OLED SHIELD library](https://github.com/mcauser/Adafruit_SSD1306/tree/esp8266-64x48)
+## Components Required
+- **SGP30 Gas Sensor Module** by Sensirion  [ChipGlobe Shop](https://chipglobe.shop)
+- **C3 Mini Microcontroller**  [ChipGlobe Shop](https://chipglobe.shop)
+- **OLED Display** (compatible with C3 Mini)  [ChipGlobe Shop](https://chipglobe.shop)
+- **Triple Adapter** for plug-and-play connectivity  [ChipGlobe Shop](https://chipglobe.shop)
+- **A USB data cable**
+- **Access to a computer**
+
+You can purchase these components from our shop: [ChipGlobe Shop](https://chipglobe.shop)
 
 ## Installation
-1. Clone this repository to your local machine using `git clone https://github.com/YOUR-USERNAME/Digital-Weather-Station.git`
-2. Open the project in the Arduino IDE and upload the code to the ESP8266 D1-mini.
-3. Connect the environmental shield to the ESP8266 D1-mini.
-4. Power the ESP8266 D1-mini using a USB cable.
+1. **Plug the Components**:
+   - Plug the SGP30 sensor, C3 Mini microcontroller, and the OLED display to the triple adapter as shown.
+  
+     ![image](https://github.com/user-attachments/assets/2c379430-3317-4b35-93e5-352c75f73c9f)
 
-## Contributing
-If you find these projects useful and would like to support my commitment to creating open source hardware and software, you can make a contribution via PayPal to mwalatimo@gmail.com. Your support is greatly appreciated!
 
-If you'd like to contribute to the projects themselves, please feel free to submit pull requests or open issues. I'm always looking for feedback, bug reports, and new ideas.
+2. **Install Firmware**:
+   -Use a suitable data cable, and connect the device to your computer.
+   - Visit [solutions.carenuity.com](https://solutions.carenuity.com) and look for Air Quality application template.
+   - Click on the "Install" button for the Air-Quality-Meter application.
+   - Follow the on-screen instructions to install the pre-built firmware onto the C3 Mini microcontroller.
 
-## License
-All of the code in this repository is released under the MIT License. You can find the full text of the license in the LICENSE file.
+## Usage
+Once the installation is complete, the Air-Quality-Meter will start displaying the following data on the OLED screen:
+- **VOCs Level**: Parts per billion (ppb)
+- **CO2 Level**: Parts per million (ppm)
+- **Humidity**: Percentage (%)
 
-## IMPORTANT SITES
-- Check out https://chipglobe-dev.web.app/
-- Buy from https://www.chipglobe.shop/en
+The device will refresh the readings every few seconds to provide real-time air quality monitoring.
 
-## For internship opportunities, trainings and industrial partnerships, visit our website
--  www.chipglobe.com
--  www.carenuity.com
+## Features
+- **Real-Time Monitoring**: Continuous updates of VOCs, CO2, and humidity levels.
+- **User-Friendly Interface**: Clear and concise OLED display for easy reading.
+- **Plug-and-Play Design**: Simplified setup with the triple adapter.
+- **Low Power Consumption**: Efficient operation suitable for long-term monitoring.
+
+## Real-Life Application Scenarios
+- **Home Environment**: Monitor air quality in your living room, bedroom, or kitchen to ensure a healthy living space.
+- **Office Spaces**: Keep track of air quality in your workspace to enhance productivity and well-being.
+- **Schools and Classrooms**: Provide a safe learning environment by monitoring and maintaining good air quality.
+- **Industrial Settings**: Detect and manage air quality in manufacturing plants to comply with safety standards.
+
+## Importance of DIY IoT Applications
+DIY IoT applications like the Air-Quality-Meter empower individuals and organizations to take control of their environment. By building and using these devices, you can:
+- **Improve Health**: Better air quality leads to reduced respiratory issues and overall health improvement.
+- **Enhance Comfort**: Optimal humidity levels contribute to a more comfortable living and working environment.
+- **Increase Efficiency**: Real-time data helps in making informed decisions to optimize HVAC systems and reduce energy consumption.
+- **Promote Sustainability**: Monitoring and managing air quality can lead to more sustainable practices and a greener planet.
+
+## Support
+For any technical assistance or questions, please contact our support team:
+- **Email**: team@carenuity.com
+- **Website**: [solutions.carenuity.com](https://solutions.carenuity.com)
+
+Thank you for choosing Carenuity's Air-Quality-Meter!
